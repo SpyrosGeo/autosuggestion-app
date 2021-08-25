@@ -1,0 +1,14 @@
+.list {
+    list-style-type: none;
+    font-size: 2rem;
+    scroll-behavior:smooth;
+} 
+.list-item{
+    margin:2px;
+    padding: 5px;
+    border:1px solid black;
+    transition: background-color 2s ease;
+}
+.list-item:hover{
+    background-color:#4287f5;
+}
